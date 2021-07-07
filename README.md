@@ -40,11 +40,25 @@ Demonstrate your understanding of this week's concepts by answering the followin
 
 - [ ] Explain the difference between `Relational Databases` and `SQL`.
 
+    Relational databases are an idea of how we should organize our data, in this case it is in tables,
+    and SQL and other DBMS’s are software that let us interact with our database by sorting, inserting,
+    deleting, updating and so on. 
+
 - [ ] Why do tables need a `primary key`?
+
+    Primary keys help to identify each row in a database uniquely. 
 
 - [ ] What is the name given to a table column that references the primary key on another table.
 
+    The column will most likely have the name of the other table (_) ‘id’, so say that you want to link
+    ranchers to what farm they work at, in the rancher table you would have a (farm_id) to show the
+    relationship that this rancher belongs to the farm that ‘id’ is pointing to, and that is a foreign key. 
+
 - [ ] What do we need in order to have a _many to many_ relationship between two tables.
+    
+    To have a many to many relationship you will in to incorporate a join table to link the two 
+    tables with foreign keys.  
+    
 
 ## Minimum Viable Product
 
